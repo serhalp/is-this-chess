@@ -1,0 +1,33 @@
+{
+  "name": "is-this-chess",
+  "description": "Is this chess? You upload an image. Cutting-edge AI tells you if it's chess. That's it.",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "astro check && astro build",
+    "dev": "astro dev",
+    "format": "prettier --write  \"**/*.{json,ts,mjs,cjs,md,astro}\" \"**/.*.{json,ts,mjs,cjs,md,astro}\"",
+    "lint": "eslint --fix \"**/*.{ts,mjs,cjs,astro}\" \"**/.*.{ts,mjs,cjs,astro}\"",
+    "preview": "astro preview",
+    "start": "astro dev",
+    "test": "pnpm run lint && pnpm run format && pnpm run build"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.3",
+    "@astrojs/netlify": "^5.5.3",
+    "@astrojs/solid-js": "^4.4.2",
+    "@solid-primitives/upload": "^0.0.117",
+    "astro": "^4.15.7",
+    "openai": "^4.62.1",
+    "solid-js": "^1.8.22",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^8.6.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-astro": "^1.2.4",
+    "prettier": "^3.3.3",
+    "prettier-plugin-astro": "^0.14.1"
+  }
+}

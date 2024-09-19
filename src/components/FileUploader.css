@@ -1,0 +1,16 @@
+.dropzone {
+  margin: auto;
+  padding: 2rem;
+  width: 500px;
+  height: 100px;
+  border: 2px dashed #0087f7;
+
+  text-align: center;
+}
+
+.file-picker {
+  margin: auto;
+  padding: 2rem;
+
+  text-align: center;
+}

@@ -1,0 +1,28 @@
+---
+import AppContainer from "../components/AppContainer.tsx";
+import Header from "../components/Header.astro";
+import Layout from "../layouts/Layout.astro";
+
+export const prerender = true;
+---
+
+<Layout title="Is it chess?">
+  <header>
+    <Header />
+  </header>
+  <main>
+    <AppContainer client:load />
+  </main>
+</Layout>
+
+<style>
+  body {
+    margin: auto;
+    padding: 1rem;
+    width: 95%;
+    max-width: calc(100% - 2rem);
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+</style>

@@ -1,0 +1,13 @@
+.answer {
+  margin: 2rem;
+
+  font-size: 3rem;
+}
+
+.image {
+  margin: 2rem;
+}
+
+.error {
+  color: #d04422;
+}
