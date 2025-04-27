@@ -19,7 +19,7 @@ importers:
         version: 5.0.9(@types/node@22.14.1)(solid-js@1.9.5)(yaml@2.7.1)
       '@solid-primitives/upload':
         specifier: ^0.1.0
-        version: 0.1.0(solid-js@1.9.5)
+        version: 0.1.1(solid-js@1.9.5)
       astro:
         specifier: ^5.0.0
         version: 5.7.5(@netlify/blobs@8.2.0)(@types/node@22.14.1)(rollup@4.40.0)(typescript@5.8.3)(yaml@2.7.1)
@@ -887,13 +887,13 @@ packages:
   '@shikijs/vscode-textmate@10.0.2':
     resolution: {integrity: sha512-83yeghZ2xxin3Nj8z1NMd/NCuca+gsYXswywDy5bHvwlWL8tpTQmzGeUuHd9FC3E/SBEMvzJRwWEOz5gGes9Qg==}
 
-  '@solid-primitives/upload@0.1.0':
-    resolution: {integrity: sha512-ntOXxiIf8m4aqV6AmTBOBsi3elznrolh8e3JiYwvUsH659Eboh44jgm+68uatKbn+MVf9X6ujL6Ib/92R8QfZg==}
+  '@solid-primitives/upload@0.1.1':
+    resolution: {integrity: sha512-GQf0BPvsJqbxlu148uNFvUIgWap4Lo8JBl5978m0HCdYuyXPZP2v1Ge6r+/p/lMEy5I5bkEB2BAIqu2WAcqBNQ==}
     peerDependencies:
       solid-js: ^1.6.12
 
-  '@solid-primitives/utils@6.3.0':
-    resolution: {integrity: sha512-e7hTlJ1Ywh2+g/Qug+n4L1mpfxsikoIS4/sHE2EK9WatQt8UJqop/vE6bsLnXlU1xuhb/jo94Ah5Y27rd4wP7A==}
+  '@solid-primitives/utils@6.3.1':
+    resolution: {integrity: sha512-4/Z59nnwu4MPR//zWZmZm2yftx24jMqQ8CSd/JobL26TPfbn4Ph8GKNVJfGJWShg1QB98qObJSskqizbTvcLLA==}
     peerDependencies:
       solid-js: ^1.6.12
 
@@ -4597,12 +4597,12 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.0.2': {}
 
-  '@solid-primitives/upload@0.1.0(solid-js@1.9.5)':
+  '@solid-primitives/upload@0.1.1(solid-js@1.9.5)':
     dependencies:
-      '@solid-primitives/utils': 6.3.0(solid-js@1.9.5)
+      '@solid-primitives/utils': 6.3.1(solid-js@1.9.5)
       solid-js: 1.9.5
 
-  '@solid-primitives/utils@6.3.0(solid-js@1.9.5)':
+  '@solid-primitives/utils@6.3.1(solid-js@1.9.5)':
     dependencies:
       solid-js: 1.9.5
 
