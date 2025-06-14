@@ -7,10 +7,13 @@
     "build": "astro check && astro build",
     "dev": "astro dev",
     "format": "prettier --write  \"**/*.{json,ts,mjs,cjs,md,astro}\" \"**/.*.{json,ts,mjs,cjs,md,astro}\"",
-    "lint": "eslint --fix \"**/*.{ts,mjs,cjs,astro}\" \"**/.*.{ts,mjs,cjs,astro}\"",
+    "format:check": "prettier --check  \"**/*.{json,ts,mjs,cjs,md,astro}\" \"**/.*.{json,ts,mjs,cjs,md,astro}\"",
+    "lint": "eslint \"**/*.{ts,mjs,cjs,astro}\" \"**/.*.{ts,mjs,cjs,astro}\"",
+    "lint:fix": "eslint --fix \"**/*.{ts,mjs,cjs,astro}\" \"**/.*.{ts,mjs,cjs,astro}\"",
     "preview": "astro preview",
     "start": "astro dev",
-    "test": "pnpm run lint && pnpm run format && pnpm run build"
+    "test": "pnpm run lint && pnpm run format && pnpm run build",
+    "typecheck": "astro check --typescript"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.3",
