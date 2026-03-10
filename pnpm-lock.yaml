@@ -25,7 +25,7 @@ importers:
         version: 5.18.0(@netlify/blobs@10.5.0)(@types/node@25.0.9)(jiti@2.6.1)(rollup@4.55.3)(typescript@5.9.3)(yaml@2.8.2)
       openai:
         specifier: ^6.15.0
-        version: 6.15.0(zod@3.25.76)
+        version: 6.27.0(zod@3.25.76)
       solid-js:
         specifier: ^1.9.4
         version: 1.9.10
@@ -3231,8 +3231,8 @@ packages:
   oniguruma-to-es@4.3.4:
     resolution: {integrity: sha512-3VhUGN3w2eYxnTzHn+ikMI+fp/96KoRSVK9/kMTcFqj1NRDh2IhQCKvYxDnWePKRXY/AqH+Fuiyb7VHSzBjHfA==}
 
-  openai@6.15.0:
-    resolution: {integrity: sha512-F1Lvs5BoVvmZtzkUEVyh8mDQPPFolq4F+xdsx/DO8Hee8YF3IGAlZqUIsF+DVGhqf4aU0a3bTghsxB6OIsRy1g==}
+  openai@6.27.0:
+    resolution: {integrity: sha512-osTKySlrdYrLYTt0zjhY8yp0JUBmWDCN+Q+QxsV4xMQnnoVFpylgKGgxwN8sSdTNw0G4y+WUXs4eCMWpyDNWZQ==}
     hasBin: true
     peerDependencies:
       ws: ^8.18.0
@@ -8000,7 +8000,7 @@ snapshots:
       regex: 6.1.0
       regex-recursion: 6.0.2
 
-  openai@6.15.0(zod@3.25.76):
+  openai@6.27.0(zod@3.25.76):
     optionalDependencies:
       zod: 3.25.76
 
