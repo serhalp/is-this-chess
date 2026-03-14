@@ -4,7 +4,7 @@
 import { defineAction } from "astro:actions";
 import { z } from "astro:schema";
 
-import { isImageChess } from "../lib/openai";
+import { isImageChess } from "../lib/anthropic";
 
 export const server = {
   isImageChess: defineAction({

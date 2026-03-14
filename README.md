@@ -12,8 +12,7 @@ It uses the PNPM package manager.
 
 ### Prerequisites
 
-For local development, you'll need to configure your own OpenAI API key. Follow the
-instructions in the `.env.example` file.
+For local development, use the [Netlify CLI](https://docs.netlify.com/cli/get-started/) to emulate Netlify AI Gateway. Run `netlify dev` to start the development server. No API keys are required as they are automatically injected by Netlify.
 
 ### Commands
 
