@@ -4,7 +4,7 @@ const anthropic = new Anthropic();
 
 export const isImageChess = async (
   /**
-   * Data URL encoded PNG image (e.g. data:image/png;base64,...)
+   * Data URL encoded image (e.g. data:image/jpeg;base64,...)
    */
   imageBlob: string,
 ): Promise<string> => {

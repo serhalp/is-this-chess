@@ -13,7 +13,8 @@ export const server = {
       file: z.instanceof(File),
     }),
     handler: async ({ file }) => {
-      const imageBlob = `data:image/png;base64,${Buffer.from(
+      const mediaType = file.type || "image/png";
+      const imageBlob = `data:${mediaType};base64,${Buffer.from(
         await file.arrayBuffer(),
       ).toString("base64")}`;
       return await isImageChess(imageBlob);

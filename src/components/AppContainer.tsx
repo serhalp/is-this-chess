@@ -31,7 +31,9 @@ const AppContainer: Component<{}> = () => {
 
   return (
     <div>
-      <div class="error">{error() ? `Something went wrong: ${error}` : ""}</div>
+      <div class="error">
+        {error() ? `Something went wrong: ${error()}` : ""}
+      </div>
 
       <div class="answer">{isLoading() ? "Pondering..." : answer()}</div>
 
