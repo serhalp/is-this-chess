@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@anthropic-ai/sdk':
         specifier: ^1.0.0
-        version: 1.11.0(zod@4.6.7)
+        version: 1.12.0(zod@4.6.7)
       '@astrojs/check':
         specifier: ^0.9.3
         version: 0.9.12(@emnapi/runtime@2.0.0-beta.2)(prettier-plugin-astro@0.14.1)(prettier@3.10.1)(typescript@6.0.3)
@@ -57,8 +57,8 @@ importers:
 
 packages:
 
-  '@anthropic-ai/sdk@1.11.0':
-    resolution: {integrity: sha512-lW16YCGJ7ItUy92hehGjuMIxvhCeW8pYi4w4jzzfo8UtRbEamagUJAzAEh1VxS6wHfDh6yB+/KE/Rqp2i6elIw==}
+  '@anthropic-ai/sdk@1.12.0':
+    resolution: {integrity: sha512-0j9zwiQdkvr90LoiiBDUh7kae1lsNW2EqeE0vGceYne4BrmMDdDVoQ4KGOieUee0zWZbVJKsf/06JY8U5i63Xg==}
     hasBin: true
     peerDependencies:
       zod: ^3.25.0 || ^4.0.0
@@ -4669,7 +4669,7 @@ packages:
 
 snapshots:
 
-  '@anthropic-ai/sdk@1.11.0(zod@4.6.7)':
+  '@anthropic-ai/sdk@1.12.0(zod@4.6.7)':
     dependencies:
       '@opentelemetry/api': 1.10.0
       json-schema-to-ts: 3.1.1
